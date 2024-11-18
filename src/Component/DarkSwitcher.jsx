@@ -14,7 +14,7 @@ function App() {
     }
 
     return (
-            <button className="p-2 text-2xl text-white rounded-md cursor-pointer  hover:bg-none  hover:bg-zinic-600 bg-none" onClick={()=> darkModeHandler()}>
+            <button  id="switcher" name='switcher' aria-label='switcher' className="p-2 text-2xl text-white rounded-md cursor-pointer  hover:bg-none  hover:bg-zinic-600 bg-none" onClick={()=> darkModeHandler()}>
                 {
                     
                     dark && <IoSunny />

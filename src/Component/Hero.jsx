@@ -20,8 +20,9 @@ export default function Hero() {
                     <div className="mx-2 md:mx-6">
 
                         <label className="block mb-2 text-sm font-medium ">Location</label>
-                        <select id="countries" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300">
-                            <option selected>Choose a country</option>
+                        <select defaultValue="Lagos" id="countries" name='countries' aria-label='countries'
+                        className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300">
+                            <option >Choose a country</option>
                             <option value="US">Lagos</option>
                             <option value="CA">Kano</option>
                             <option value="FR">Ondo</option>
@@ -31,13 +32,13 @@ export default function Hero() {
                     <div className="mx-2 md:mx-6">
 
                         <label className="block mb-2 text-sm font-medium ">Pick up</label>
-                        <input id="countries" type="date" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300" placeholder='Choose  date'></input>
+                        <input id="dropinDate" type="date" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300" placeholder='Choose  date'></input>
                     </div>
 
                     <div className="mx-2 md:mx-6">
 
                         <label className="block mb-2 text-sm font-medium ">Drop off</label>
-                        <input id="countries" type="date" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300" placeholder='Choose  date'></input>
+                        <input id="dropoffDate" type="date" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300" placeholder='Choose  date'></input>
                     </div>
 
                     <button className='px-4 my-4 mt-6 py-2 border-transparent bg-gray-950 hover:bg-red-700 hover:border-transparent hover:text-gray-50 dark:bg-gray-100 dark:text-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50     transition ease-in-out  delay-150 duration-300 text-white rounded-lg'>Search</button>

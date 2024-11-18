@@ -16,9 +16,9 @@ export default function Footer() {
                                 <img src="/img/logo-light.svg" className=" " alt="" />
                                 <p className=" text-md text-center lg:text-left">Your destination for the best wheel you need.</p>
                                 <div className="flex gap-5 flex-row ">
-                                    <button className="text-xl p-2 border border-white rounded-full "><FaXTwitter /></button>
-                                    <button className="text-xl p-2 border border-white rounded-full "><FaGoogle /></button>
-                                    <button className="text-xl p-2 border border-white rounded-full "><FaInstagram /></button>
+                                    <button className="text-xl p-2 border border-white rounded-full " id='twitter' name='twitter' aria-label='twitter'><FaXTwitter /></button>
+                                    <button className="text-xl p-2 border border-white rounded-full " id='google' name='google' aria-label='google'><FaGoogle /></button>
+                                    <button className="text-xl p-2 border border-white rounded-full " id='insta' name='insta' aria-label='insta'><FaInstagram /></button>
                                 </div>
                                 </div>
                             <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 md:gap-20 justify-between my-5 lg:w-8/12 lg:grid-rows-1">
