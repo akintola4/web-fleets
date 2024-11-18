@@ -38,12 +38,12 @@ export default function Nav() {
 
                     <li className="relative text-md  w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800  after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                         <Link className="flex flex-row hover:text-red-700 gap-2 items-center"
-                            to="/About">
+                            to="/fleets">
                             Fleets
                         </Link></li>
                     <li className="relative text-md  w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800  after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                         <Link className="flex flex-row hover:text-red-700 gap-2 items-center"
-                            to="/contactus">
+                            to="/about">
                             About
                         </Link></li>
                 </ul>
