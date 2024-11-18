@@ -72,7 +72,7 @@ export default function Land() {
                     <p className="w-10/12 xl:w-8/12 text-gray-700 text-sm md:text-md dark:text-gray-300">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut
                         commodi dolorem. Et molestiae autem ut corrup</p>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center justify-evenly gap-5 md:gap-20 ">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center justify-evenly gap-5  xl:gap-20 ">
                     {card1}
                 </div>
             </section>
@@ -96,26 +96,26 @@ export default function Land() {
                     <img src="img/hero-2.svg" className="md:w-6/12 dark:invert-0" alt="" />
                     <div className="flex flex-col gap-10 md:w-6/12">
                         <div className="flex flex-row gap-6">
-                            <img src="img/support.svg" className="py-2 px-4 my-4 md:my-1 bg-neutral-500 dark:bg-gray-800 rounded-xl dark:invert-0" alt="" />
+                            <img src="img/support.svg" className="py-2 px-4 lg:my-4 md:my-6 bg-neutral-500 dark:bg-gray-800 rounded-xl dark:invert-0" alt="" />
                             <div className="flex flex-col gap-2">
                                 <h4 className="font-bold font-sans text-xl dark:text-gray-50 text-gray-950">Customer support</h4>
-                                <p className="font-bold text-gray-500 text-sm md:w-6/12 dark:text-gray-100 md:text-md ">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut  commodi dolorem. Et molestiae </p>
+                                <p className="font-bold text-gray-500 text-sm xl:w-6/12 dark:text-gray-100 md:text-md ">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut  commodi dolorem. Et molestiae </p>
 
                             </div>
                         </div>
                         <div className="flex flex-row gap-6">
-                            <img src="img/goal.svg" className="py-2 px-4 my-4 md:my-1 bg-red-700 dark:bg-red-800 rounded-xl dark:invert-0" alt="" />
+                            <img src="img/goal.svg" className="py-2 px-4 lg:my-4 md:my-6 bg-red-700 dark:bg-red-800 rounded-xl dark:invert-0" alt="" />
                             <div className="flex flex-col gap-2">
                                 <h4 className="font-bold font-sans text-xl dark:text-gray-50 text-gray-950">Customer support</h4>
-                                <p className="font-bold text-gray-500 text-sm md:w-6/12 dark:text-gray-100 md:text-md ">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut  commodi dolorem. Et molestiae </p>
+                                <p className="font-bold text-gray-500 text-sm xl:w-6/12 dark:text-gray-100 md:text-md ">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut  commodi dolorem. Et molestiae </p>
 
                             </div>
                         </div>
                         <div className="flex flex-row gap-6">
-                            <img src="img/stop.svg" className="py-2 px-4 my-4 md:my-1 bg-neutral-500 dark:bg-gray-800 rounded-xl dark:invert-0" alt="" />
+                            <img src="img/stop.svg" className="py-2 px-4 lg:my-4 md:my-6 bg-neutral-500 dark:bg-gray-800 rounded-xl dark:invert-0" alt="" />
                             <div className="flex flex-col gap-2">
                                 <h4 className="font-bold font-sans text-xl dark:text-gray-50 text-gray-950">Customer support</h4>
-                                <p className="font-bold text-gray-500 text-sm md:w-6/12 dark:text-gray-100 md:text-md ">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut  commodi dolorem. Et molestiae </p>
+                                <p className="font-bold text-gray-500 text-sm xl:w-6/12 dark:text-gray-100 md:text-md ">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut  commodi dolorem. Et molestiae </p>
 
                             </div>
                         </div>
