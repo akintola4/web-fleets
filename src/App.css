@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'poppins';
+  src: url('./fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fredoka-one';
+  src: url('./fonts/fredoka-one/FredokaOne-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+  /* this for the star */
+  .filled {
+    color: gold;
+  }
