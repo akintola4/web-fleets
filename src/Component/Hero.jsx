@@ -30,10 +30,14 @@ export default function Hero() {
                         </select>
                     </div>
                     <div className="mx-2 md:mx-6 w-full">
-
-                        <label className="block mb-2 text-sm font-medium ">Pick up</label>
-                        <input id="dropinDate" type="date" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300" placeholder='Choose  date'></input>
-                    </div>
+    <label className="block mb-2 text-sm font-medium">Pick up</label>
+    <input
+        id="dropinDate"
+        type="date"
+        className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300"
+        placeholder="Choose date"
+    />
+</div>
 
                     <div className="mx-2 md:mx-6 w-full">
 
