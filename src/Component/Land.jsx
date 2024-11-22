@@ -58,7 +58,7 @@ export default function Land() {
             <Hero />
             
             <MovingDiv>
-            <section id='brand-logos'  className='brand-logos  grid grid-cols-3 md:grid-cols-7 justify-center items-center md:grid-rows-1 gap-10 p-4 md:px-10 lg:px-20'>
+            <section id='brand-logos'  className='brand-logos  grid grid-cols-7 md:grid-cols-7 justify-center items-center md:grid-rows-1 gap-10 p-4 md:px-10 lg:px-20'>
                 <img src="img/brand-logo-1.svg" className='' alt="brand-logo" />
                 <img src="img/brand-logo-2.svg" className='' alt="brand-logo"  />
                 <img src="img/brand-logo-3.svg" className='' alt="brand-logo"  />
