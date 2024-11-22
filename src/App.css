@@ -34,3 +34,11 @@
   input[type="text"] {
     font-size: 16px; /* Adjust as needed */
 }
+input {
+  width: -webkit-fill-available;
+  margin-bottom: 5px;
+}
+input::placeholder {
+  color: #999; /* Adjust color as needed */
+  opacity: 1; /* Ensure full visibility */
+}
