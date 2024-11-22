@@ -26,9 +26,9 @@
     appearance: none;
     box-sizing: border-box;
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: 0;
-    padding: 3rem;
+    padding: 10rem;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
