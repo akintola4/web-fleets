@@ -31,3 +31,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+  input[type="text"] {
+    font-size: 16px; /* Adjust as needed */
+}
