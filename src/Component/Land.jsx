@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import { useEffect } from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import MovingDiv from './MovingDiv';
 export default function Land() {
 
     useEffect(() => {
@@ -55,15 +56,18 @@ export default function Land() {
         <div className="scroll-smooth flex flex-col ">
             <Nav />
             <Hero />
-            <section id='brand-logos'  className='brand-logos bg-white dark:bg-gray-500 grid grid-cols-3 md:grid-cols-7 justify-center items-center md:grid-rows-1 gap-10 p-4 md:px-10 lg:px-20'>
-                <img src="img/brand-logo-1.svg" className='' alt="" data-aos="zoom-out"/>
-                <img src="img/brand-logo-2.svg" className='' alt="" data-aos="zoom-out" />
-                <img src="img/brand-logo-3.svg" className='' alt="" data-aos="zoom-out" />
-                <img src="img/brand-logo-4.svg" className='' alt="" data-aos="zoom-out" />
-                <img src="img/brand-logo-5.svg" className='' alt="" data-aos="zoom-out" />
-                <img src="img/brand-logo-6.svg" className='' alt="" data-aos="zoom-out" />
-                <img src="img/brand-logo-7.svg" className='' alt="" data-aos="zoom-out" />
+            
+            <MovingDiv>
+            <section id='brand-logos'  className='brand-logos  grid grid-cols-3 md:grid-cols-7 justify-center items-center md:grid-rows-1 gap-10 p-4 md:px-10 lg:px-20'>
+                <img src="img/brand-logo-1.svg" className='' alt="brand-logo" />
+                <img src="img/brand-logo-2.svg" className='' alt="brand-logo"  />
+                <img src="img/brand-logo-3.svg" className='' alt="brand-logo"  />
+                <img src="img/brand-logo-4.svg" className='' alt="brand-logo"  />
+                <img src="img/brand-logo-5.svg" className='' alt="brand-logo"  />
+                <img src="img/brand-logo-6.svg" className='' alt="brand-logo"  />
+                <img src="img/brand-logo-7.svg" className='' alt="brand-logo"  />
             </section>
+            </MovingDiv>
 
 
             <section className=" flex flex-col items-center py-10 gap-10 mx-5  md:mx-10"  data-aos="zoom-in">

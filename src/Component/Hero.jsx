@@ -16,8 +16,8 @@ export default function Hero() {
 
             <div className="flex flex-col p-2 md:p-5 my-10 inset-x-0 top-0 justify-center  text-black dark:text-white border-2 bg-white dark:bg-gray-800 dark:border-gray-400 rounded-2xl" data-aos="fade-up">
 
-                <div className='grid grid-cols-2 lg:grid-cols-4 grid-rows-2 lg:grid-rows-1'>
-                    <div className="mx-2 md:mx-6">
+                <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 items-center grid-rows-2 lg:grid-rows-1'>
+                    <div className="mx-2 md:mx-6 w-full">
 
                         <label className="block mb-2 text-sm font-medium ">Location</label>
                         <select defaultValue="Lagos" id="countries" name='countries' aria-label='countries'
@@ -29,13 +29,13 @@ export default function Hero() {
                             <option value="DE">Benin</option>
                         </select>
                     </div>
-                    <div className="mx-2 md:mx-6">
+                    <div className="mx-2 md:mx-6 w-full">
 
                         <label className="block mb-2 text-sm font-medium ">Pick up</label>
                         <input id="dropinDate" type="date" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300" placeholder='Choose  date'></input>
                     </div>
 
-                    <div className="mx-2 md:mx-6">
+                    <div className="mx-2 md:mx-6 w-full">
 
                         <label className="block mb-2 text-sm font-medium ">Drop off</label>
                         <input id="dropoffDate" type="date" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-300 dark:focus:border-gray-300" placeholder='Choose  date'></input>
