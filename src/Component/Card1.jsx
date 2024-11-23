@@ -5,7 +5,7 @@ import { TbArmchair2 } from "react-icons/tb";
 
 export default function Card1(props) {
   return (
-    <div className="flex flex-col gap-6 p-4 py-10 text-gray-900 dark:text-gray-50 dark:bg-gray-800 bg-gray-50 items-center shadow-[rgba(17,_17,_26,_0.1)_0px_0px_4px]  dark:shadow-[rgba(247,240,_252,_0.1)_0px_0px_10px]  hover:animate delay-50 hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer rounded-lg"  data-aos="fade-right">
+    <div className="flex flex-col w-full gap-6 p-4 py-10 text-gray-900 dark:text-gray-50 dark:bg-gray-800 bg-gray-50 items-center shadow-[rgba(17,_17,_26,_0.1)_0px_0px_4px]  dark:shadow-[rgba(247,240,_252,_0.1)_0px_0px_10px]  hover:animate delay-50 hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer rounded-lg"  data-aos="fade-right">
    <img  src={`img/${props.info.img}`} className="w-10/12  dark:invert-0" alt="" />
     <h4 className="text-sm md:text-lg ">{props.info.title}</h4>
     <div className="grid grid-cols-2 xl:grid-cols-3 gap-6 px-2">

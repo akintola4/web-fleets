@@ -59,24 +59,24 @@ export default function Land() {
             
             <MovingDiv>
             <section id='brand-logos'  className='brand-logos  grid grid-cols-7 md:grid-cols-7 justify-center items-center md:grid-rows-1 gap-10 p-4 md:px-10 lg:px-20'>
-                <img src="img/brand-logo-1.svg" className='' alt="brand-logo" />
-                <img src="img/brand-logo-2.svg" className='' alt="brand-logo"  />
-                <img src="img/brand-logo-3.svg" className='' alt="brand-logo"  />
-                <img src="img/brand-logo-4.svg" className='' alt="brand-logo"  />
-                <img src="img/brand-logo-5.svg" className='' alt="brand-logo"  />
-                <img src="img/brand-logo-6.svg" className='' alt="brand-logo"  />
-                <img src="img/brand-logo-7.svg" className='' alt="brand-logo"  />
+                <img src="img/brand-logo-1.svg" className='w-full scale-150 md:scale-100 md:w-auto' alt="brand-logo" />
+                <img src="img/brand-logo-2.svg" className='w-full scale-150 md:scale-100 md:w-auto' alt="brand-logo"  />
+                <img src="img/brand-logo-3.svg" className='w-full scale-150 md:scale-100 md:w-auto' alt="brand-logo"  />
+                <img src="img/brand-logo-4.svg" className='w-full scale-150 md:scale-100 md:w-auto' alt="brand-logo"  />
+                <img src="img/brand-logo-5.svg" className='w-full scale-150 md:scale-100 md:w-auto' alt="brand-logo"  />
+                <img src="img/brand-logo-6.svg" className='w-full scale-150 md:scale-100 md:w-auto' alt="brand-logo"  />
+                <img src="img/brand-logo-7.svg" className='w-full scale-150 md:scale-100 md:w-auto' alt="brand-logo"  />
             </section>
             </MovingDiv>
 
 
-            <section className=" flex flex-col items-center py-10 gap-10 mx-5  md:mx-10"  data-aos="zoom-in">
+            <section className=" flex flex-col items-center py-10 gap-10 mx-2  md:mx-10"  data-aos="zoom-in">
                 <div className="flex flex-col text-center items-center gap-4">
                     <h4 className="dark:text-gray-50 text-gray-950 md:text-6xl font-extrabold font-sans text-2xl">Top rated rented cars</h4>
                     <p className="w-10/12 xl:w-8/12 text-gray-700 text-sm md:text-md dark:text-gray-300">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut
                         commodi dolorem. Et molestiae autem ut corrup</p>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center justify-evenly gap-5  xl:gap-20 ">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 w-10/12 md:w-full items-center md:justify-evenly gap-5  xl:gap-20 ">
                     {card1}
                 </div>
             </section>
