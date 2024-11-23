@@ -20,26 +20,72 @@
   .filled {
     color: gold;
   }
-  input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-sizing: border-box;
-    width: 100%;
-    height: 200%;
-    margin: 0;
-    padding: 10rem 20rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  input[type="text"] {
-    font-size: 16px; /* Adjust as needed */
+/* Container styles */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
 }
-input {
-  width: -webkit-fill-available;
-  margin-bottom: 5px;
+
+/* Label styles */
+.input-label {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 8px;
 }
-input::placeholder {
-  color: #999; /* Adjust color as needed */
-  opacity: 1; /* Ensure full visibility */
+
+/* Input reset and base styles */
+.custom-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.1);
+  color: #000;
+}
+
+/* Remove iOS shadow and rounded corners */
+.custom-input {
+  border-radius: 12px !important;
+  -webkit-border-radius: 12px !important;
+}
+
+/* Remove inner shadow on iOS */
+.custom-input {
+  -webkit-appearance: none;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.1);
+}
+
+/* Focus states */
+.custom-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.2);
+}
+
+/* Placeholder styling */
+.custom-input::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+/* Specifically target date inputs */
+input[type="date"].custom-input {
+  min-height: 48px;
+  line-height: 48px;
+}
+
+/* Calendar icon styling */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
 }
