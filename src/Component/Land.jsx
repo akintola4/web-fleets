@@ -70,7 +70,7 @@ export default function Land() {
             </MovingDiv>
 
 
-            <section className=" flex flex-col items-center py-10 gap-10 mx-2  md:mx-10"  data-aos="zoom-in">
+            <section  id="Fleets" name="Fleets"  className=" flex flex-col items-center py-10 gap-10 mx-2  md:mx-10"  data-aos="zoom-in">
                 <div className="flex flex-col text-center items-center gap-4">
                     <h4 className="dark:text-gray-50 text-gray-950 md:text-6xl font-extrabold font-sans text-2xl">Top rated rented cars</h4>
                     <p className="w-10/12 xl:w-8/12 text-gray-700 text-sm md:text-md dark:text-gray-300">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut
@@ -80,7 +80,7 @@ export default function Land() {
                     {card1}
                 </div>
             </section>
-            <section className=" flex flex-col gap-10 bg-gray-50 dark:bg-gray-800 dark:text-white px-10 items-center py-10" data-aos="fade-right">
+            <section  id="About" name="About"  className=" flex flex-col gap-10 bg-gray-50 dark:bg-gray-800 dark:text-white px-10 items-center py-10" data-aos="fade-right">
                 <div className="flex flex-col text-center gap-2">
                     <h4 className=" text-gray-950 md:text-6xl font-extrabold dark:text-white font-sans text-2xl">How it works</h4>
                     <p className=" text-gray-700 w-10/12 xl:w-8/12 mx-auto dark:text-gray-300">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut
@@ -90,7 +90,7 @@ export default function Land() {
                     {card2}
                 </div>
             </section>
-            <section className=" flex flex-col py-10 gap-10 mx-5  md:mx-10" data-aos="zoom-in" >
+            <section id="services" name="services" className=" flex flex-col py-10 gap-10 mx-5  md:mx-10" data-aos="zoom-in" >
                 <div className="flex flex-col text-center items-center gap-4" data-aos="fade-right">
                     <h4 className="dark:text-gray-50 text-gray-950 md:text-6xl font-extrabold font-sans text-2xl">Best services and luxury cars</h4>
                     <p className="w-10/12 xl:w-6/12 text-gray-700 text-sm md:text-md dark:text-gray-300">Et nesciunt expedita aut enim obcaecati sit omnis magnam est numquam iure ut

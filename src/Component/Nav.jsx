@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom'
 
+
 import DarkSwitcher from "./DarkSwitcher"
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { useState } from 'react';
@@ -30,34 +31,60 @@ export default function Nav() {
                     </div>
 
 
-                    <div className="relative text-md  w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800  after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
-                        <Link to="/product" className="flex hover:text-red-700 flex-row gap-2 items-center">
-                        Our services 
-                        </Link>
+                    <div className="relative text-md w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+                        <a
+                            href="#services" // Use the section ID
+                            className="flex hover:text-red-700 flex-row gap-2 items-center"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById('services')?.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }}
+                        >
+                            Our services
+                        </a>
                     </div>
-
-                    <div className="relative text-md  w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800  after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
-                        <Link className="flex flex-row hover:text-red-700 gap-2 items-center"
-                            to="/fleets">
-                            Fleets
-                        </Link></div>
-                    <div className="relative text-md  w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800  after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
-                        <Link className="flex flex-row hover:text-red-700 gap-2 items-center"
-                            to="/about">
-                            About
-                        </Link></div>
+                    <div className="relative text-md w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+    <a 
+        href="#Fleets" // Use the section ID
+        className="flex hover:text-red-700 flex-row gap-2 items-center"
+        onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('Fleets')?.scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }}
+    >
+        Fleets
+    </a>
+</div>
+<div className="relative text-md w-fit block hover:text-red-700 after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+    <a 
+        href="#About" // Use the section ID
+        className="flex hover:text-red-700 flex-row gap-2 items-center"
+        onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('About')?.scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }}
+    >
+        About
+    </a>
+</div>
                 </div>
 
                 <div className="nav-3  xl:w-3/12 flex items-end justify-end">
                     <div className=" flex-row hidden gap-3 lg:flex items-center ">
-                    <button className='px-4 py-2 bg-gray-50 text-gray-950 hover:bg-red-700 hover:border-transparent hover:text-gray-50 dark:bg-red-700 dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50    transition ease-in-out  delay-150 duration-300  rounded-lg'>Book Now</button>
+                        <button className='px-4 py-2 bg-gray-50 text-gray-950 hover:bg-red-700 hover:border-transparent hover:text-gray-50 dark:bg-red-700 dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50    transition ease-in-out  delay-150 duration-300  rounded-lg'>Book Now</button>
 
                         <DarkSwitcher />
                     </div>
                     <button
                         className="flex p-2 rounded-md text-white outline-none cursor-pointer mobile-menu-button lg:hidden hover:bg-none hover:text-black" onClick={toggleMenu}>
                         <RxHamburgerMenu className="text-2xl" /></button>
-                        
+
                 </div>
 
             </nav>
@@ -79,20 +106,20 @@ export default function Nav() {
                             to="/about">
                             About
                         </Link></div>
-                        
+
                     <div className="px-5 py-2 transition duration-300 text-white">
                         <Link className="flex flex-row  hover:text-red-700 dark:hover:text-white gap-2 items-center"
                             to="/contact">
                             Contact us
                         </Link></div>
-                        <div className="px-5 py-2 transition duration-300 text-white">
+                    <div className="px-5 py-2 transition duration-300 text-white">
                         <div className=" flex-row  gap-4 flex items-center ">
-                        <button className='px-4 py-2 bg-gray-50 text-gray-950 hover:bg-red-700 hover:border-transparent hover:text-gray-50 dark:bg-red-700 dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50    transition ease-in-out  delay-150 duration-300  rounded-lg'>Book Now</button>
+                            <button className='px-4 py-2 bg-gray-50 text-gray-950 hover:bg-red-700 hover:border-transparent hover:text-gray-50 dark:bg-red-700 dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50    transition ease-in-out  delay-150 duration-300  rounded-lg'>Book Now</button>
 
-                       
-                        <DarkSwitcher />
+
+                            <DarkSwitcher />
+                        </div>
                     </div>
-                             </div>
 
                 </div>
             </div>
