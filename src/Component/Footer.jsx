@@ -51,7 +51,7 @@ export default function Footer() {
 
                     </div>
                     <div className="p-4 border-t-2 flex flex-col gap-4 md:flex-row justify-between">
-                    <h4 className=" text-md text-center lg:text-left">© 2024 webFleet designed by <a href="https://x.com/zionxi99?s=21">seaweb</a>  and implemented by <a href="https://x.com/photofola">Dev Akintola</a></h4>
+                    <h4 className=" text-md text-center lg:text-left">© 2024 webFleet designed by <a href="https://x.com/seaweb007">seaweb</a>  and implemented by <a href="https://x.com/photofola">Dev Akintola</a></h4>
                         <div className="flex justify-center flex-row gap-4">
                                     <h4>Privacy & Policy</h4>
                                     <h4>Terms & Condition</h4>
